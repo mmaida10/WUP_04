@@ -44,6 +44,14 @@ We see wordsum is a numeric variable and degree is a factor variable. This shows
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+basicCN <- ggplot(OurData,aes(x=DEGREE,y=WORDSUM))
+
+basicCN + geom_boxplot()
+```
+
+The graduate's box is higher in the y-axis than the high school and lt high school box. It looks like there is a difference in the wordsum test.
+
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
