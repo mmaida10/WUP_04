@@ -1,7 +1,7 @@
 ---
 title: "WUP_04"
-author: "Put your name here!"
-date: "fall 2020"
+author: "Michael Maida"
+date: "fall 2021"
 output:
   html_document:
     df_print: paged
@@ -25,6 +25,14 @@ $H_a$ There is a significant difference in average score on the WORDSUM test bet
 # Methods
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
+
+We need to take a look at the data to see which helper file we will need. We will load the data and see what type of data we are given. 
+
+```{r}
+OurData<-read.csv(file="GSScsv.csv")
+```
+We see wordsum is a numeric variable and degree is a factor variable. This shows that we need to upload our helper file "numerical~categorical."
+
 
 # Results
 
