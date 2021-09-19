@@ -73,6 +73,16 @@ summary.aov(model1)
 
 The P-value is 0.000236. This P-value represents the chance that we would get he data under the conditions that there isn't a difference between each degree. Since the P-value is so little, it looks as it there is indeed a difference.
 
+```{r}
+#we specify the margins starting at the bottom and proceeding clockwise - thus 8.7 is the left side margin to hold the names of the factors
+par(mar = c(3, 16, 2, 2))
+plot(TukeyHSD(model1),las=2)
+```
+
+There are two conditions where the score on the degree are statistically different, and they are between high school and graduate school and lt high school and graduate school. 
+
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+
