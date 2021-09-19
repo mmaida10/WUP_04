@@ -85,4 +85,4 @@ There are two conditions where the score on the degree are statistically differe
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
-
+We looked at the problem and figured out it was a nemerical~categorical problem, so we uploaded the nemerical~categorical helper file. We looked at the different T-tests and figured out which confidence levels were less than the rest. We concluded that the conditions between high school and graduate school and between lt high school and graduate schoool were significantly different. 
